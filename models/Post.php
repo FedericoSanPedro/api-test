@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_error', 1);
 
 /**
- * @OA\Info(title="My First API", version="1.0")
+ * @OA\Info(title="My First API", version="2.0")
  */
 class Post {
     // Database data.
