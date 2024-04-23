@@ -14,3 +14,6 @@ GET: http://localhost/api-test/api/post/single.php?id=3
 POST: http://localhost/api-test/api/post/insert.php
 PUT: http://localhost/api-test/api/post/update.php
 DELETE: http://localhost/api-test/api/post/destroy.php?id=9
+
+
+https://www.youtube.com/watch?v=q_eLPG4PDM8&list=PLi07GF6GSS3qyYOM-jqeSg4IbG_Z8l5Xy&index=100

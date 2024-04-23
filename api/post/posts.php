@@ -26,8 +26,13 @@ $post = new Post($db);
 
 $data = $post->read();
 
+// if there is post in database
+
 if($data->rowCount()){
     $post =[];
+
+    // re-aggrange the posts data
+
     while($row = $data->fetch(PDO::FETCH_OBJ)){
         $posts[$row->id] = [
             'id' => $row->id,
